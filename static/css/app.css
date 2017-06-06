@@ -1,0 +1,252 @@
+/* jssor slider bullet navigator skin 01 css */
+/*
+.jssorb01 div           (normal)
+.jssorb01 div:hover     (normal mouseover)
+.jssorb01 .av           (active)
+.jssorb01 .av:hover     (active mouseover)
+.jssorb01 .dn           (mousedown)
+*/
+.jssorb01 {
+    position: absolute;
+}
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 12px;
+    height: 12px;
+    filter: alpha(opacity=70);
+    opacity: .7;
+    overflow: hidden;
+    cursor: pointer;
+    border: #000 1px solid;
+}
+.jssorb01 div { background-color: gray; }
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #fff; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+/* jssor slider arrow navigator skin 05 css */
+/*
+.jssora05l                  (normal)
+.jssora05r                  (normal)
+.jssora05l:hover            (normal mouseover)
+.jssora05r:hover            (normal mouseover)
+.jssora05l.jssora05ldn      (mousedown)
+.jssora05r.jssora05rdn      (mousedown)
+.jssora05l.jssora05lds      (disabled)
+.jssora05r.jssora05rds      (disabled)
+*/
+p22{
+  font-size: x-large;
+}
+.jssora05l, .jssora05r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url('') no-repeat;
+    overflow: hidden;
+}
+#parent div1 {
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#parent div1:first-child {
+    display:block;
+}
+div1{background:red}
+
+#parent > div1{
+    width:400px;
+    height:250px;
+}
+
+.jssora05l { background-position: -10px -40px; }
+.jssora05r { background-position: -70px -40px; }
+.jssora05l:hover { background-position: -130px -40px; }
+.jssora05r:hover { background-position: -190px -40px; }
+.jssora05l.jssora05ldn { background-position: -250px -40px; }
+.jssora05r.jssora05rdn { background-position: -310px -40px; }
+.jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
+.jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
+/* jsso
+/*         */
+
+.jssorb05 {
+          position: absolute;
+      }
+      .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+          position: absolute;
+          /* size of bullet elment */
+          width: 16px;
+          height: 16px;
+          background: url('../js/b05.png') no-repeat;
+          overflow: hidden;
+          cursor: pointer;
+      }
+      .jssorb05 div { background-position: -7px -7px; }
+      .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+      .jssorb05 .av { background-position: -67px -7px; }
+      .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+      /* jssor slider arrow navigator skin 12 css */
+      /*
+      .jssora12l                  (normal)
+      .jssora12r                  (normal)
+      .jssora12l:hover            (normal mouseover)
+      .jssora12r:hover            (normal mouseover)
+      .jssora12l.jssora12ldn      (mousedown)
+      .jssora12r.jssora12rdn      (mousedown)
+      .jssora12l.jssora12lds      (disabled)
+      .jssora12r.jssora12rds      (disabled)
+      */
+      .jssora12l, .jssora12r {
+          display: block;
+          position: absolute;
+          /* size of arrow element */
+          width: 30px;
+          height: 46px;
+          cursor: pointer;
+          background: url('../js/a12.png') no-repeat;
+          overflow: hidden;
+      }
+      .jssora12l { background-position: -16px -37px; }
+      .jssora12r { background-position: -75px -37px; }
+      .jssora12l:hover { background-position: -136px -37px; }
+      .jssora12r:hover { background-position: -195px -37px; }
+      .jssora12l.jssora12ldn { background-position: -256px -37px; }
+      .jssora12r.jssora12rdn { background-position: -315px -37px; }
+      .jssora12l.jssora12lds { background-position: -16px -37px; opacity: .3; pointer-events: none; }
+      .jssora12r.jssora12rds { background-position: -75px -37px; opacity: .3; pointer-events: none; }
+///////////
+/* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('../img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        .jssora12l.jssora12lds      (disabled)
+        .jssora12r.jssora12rds      (disabled)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('../img/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+        .jssora12l.jssora12lds { background-position: -16px -37px; opacity: .3; pointer-events: none; }
+        .jssora12r.jssora12rds { background-position: -75px -37px; opacity: .3; pointer-events: none; }
+/*///////////////////////////////*/
+
+a.button{
+color:red;
+
+}
+/*   css for validation */
+
+#success_message{ display: none;}
+
+/**/
+#map {
+       height: 100%;
+     }
+     /* Optional: Makes the sample page fill the window. */
+     html, body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+     }
+
+
+
+     .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+        width:565px;
+}
+.googlemaps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:565px;
+    position:absolute;
+
+}
+.imgframe
+    {
+    background:;
+    padding:0px;
+    border:0px;
+    padding-width:0px;
+    background-position: relative;
+    border-radius: 0px;
+
+
+
+  }
+  #map {
+    width: 565px;
+    height: 450px;
+    background-color: #CCC;
+  }
+
+  /*#googlemaps {
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+  .img-circular{
+   width: 200px;
+   height: 200px;
+
+   background-size: cover;
+   display: block;
+  }
+  .bb {
+    float: right;
+  }
